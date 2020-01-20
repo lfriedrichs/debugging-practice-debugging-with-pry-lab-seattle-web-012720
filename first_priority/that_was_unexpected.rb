@@ -20,7 +20,7 @@ class Person
 
   def ballin_candy_lover?
     if @candy_lover == true
-      puts "Aw sweet, this cat loves them some candy!"
+      "Aw sweet, this cat loves them some candy!"
     else
       10.times do
         puts "not a ballin candy lover"
