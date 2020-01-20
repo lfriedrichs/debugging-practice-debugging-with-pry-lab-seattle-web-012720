@@ -1,6 +1,5 @@
 class Person
   attr_accessor :name, :candy_lover
-end
 
   def initialize(name, candy_lover)
     @name = name
@@ -25,6 +24,7 @@ end
     else
       10.times do
         puts "not a ballin candy lover"
+      end
     end
   end
 end
